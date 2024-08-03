@@ -9,9 +9,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="public_html/final_portfolio/styles.css">
     <script src="https://kit.fontawesome.com/2d0887f233.js" crossorigin="anonymous"></script>
-    <title>studyBuddy</title>
+    <title>FinalPortfolio</title>
   </head>
   <body>
     <section id="title">
@@ -19,7 +19,7 @@
 
        <!-- Nav Bar --> 
       <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="#">StudyBuddy</a>
+        <a class="navbar-brand" href="#">Harshini Sangaraju</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
@@ -27,30 +27,29 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav m1-auto">
            <li class="nav-item active">
-             <a class="nav-link" href="#features">Content<span class="sr-only">(current)</span></a>
+             <a class="nav-link" href="#features">About me <span class="sr-only">(current)</span></a>
            </li>
            <li class="nav-item">
-             <a class="nav-link" href="#pricing">Pricing</a>
+             <a class="nav-link" href="#pricing">UCSD</a>
            </li>
            <li class="nav-item">
-            <a class="nav-link" href="#cta">Download</a>
+            <a class="nav-link" href="#cta">Past Experiences</a>
            </li>
           </ul>
            <form class="form-inline my-2 my-lg-0">
-           <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-           <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Search</button>
+           <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit"><a  href="public_html/final_portfolio/resume.pdf">My Resume</a></button>
            </form>
         </div>
       </nav>
       <!-- Title -->
     <div class="row">
-      <div class="col-lg-6">
-        <h1>Meet fun, productive, and interesting study buddies.</h1>
-        <button type="button" name="button" class="btn btn-dark download-button"><i class="fa-brands fa-apple"></i> Download</button>
-        <button type="button" name="button" class="btn btn-outline-secondary download button"> <i class="fa-brands fa-google-play"></i>Download</button>
+      <div class="col-lg-8">
+        <h2 class="heading">Hi! I'm an enthusiastic student at UCSD with a passion to advance the integration of psychology and business.  </h2>
+        <button type="button" name="button" class="btn btn-dark download-button"> My Resume</button>
+        <button type="button" name="button" class="btn btn-outline-secondary download button"> Contact Page</button>
       </div>
-      <div class="col-lg-6">
-      <img class="title-image" src="images/iphone-400.png" alt="iphone with study buddy app">
+      <div class="col-lg-4">
+      <img class="title-image" src="public_html/final_portfolio/images/brain.png" >
       </div>
     </div>
     </div>
@@ -59,20 +58,20 @@
     <!--  Features -->
     <section id="features">
      <div class="row">
-     <div class="feature-box col-lg-4">
-      <i class="icon fa-regular fa-circle-check fa-3x"></i>
-      <h3>Easy to use.</h3>
-      <p class="features-para">So easy to use, you can do it in your sleep!</p>
+     <div class="feature-box col-lg-4" style="border-top: 1px solid darkslategrey;">
+      <i class="icon fa-solid fa-user-group fa-3x"></i>
+      <h3 class="ft">Active Team Player</h3>
+      <p class="features-para">I collaborate easily with my colleagues and always strive to put in extra efforts to plan and organize group tasks in order to ensure maximum efficiency and a positive work enviroment.</p>
      </div>
-     <div class="feature-box col-lg-4">
-      <i class="icon fa-regular fa-face-laugh-beam fa-3x"></i>
-      <h3>Fantastic Students</h3>
-      <p class="features-para"> We have study buddies for all majors. </p>
+     <div class="feature-box col-lg-4" style="border-top: 1px solid darkslategrey;">
+      <i class="icon fa-solid fa-magnifying-glass-chart fa-3x"></i>
+      <h3 class="ft">Research & technical skills </h3>
+      <p class="features-para"> Use of scientific tools and statistical analysis for evaluating numeric/graphical data to improve performance. <br> Skilled at Digital signal processing, EEG Lab, Git/Version control, Python, Javascript, CSS, Microsoft Office</p>
      </div>
-     <div class="feature-box col-lg-4">
-      <i class="icon fa-brands fa-web-awesome fa-3x"></i>
-      <h3>Guaranteed to work.</h3>
-      <p class="features-para">Always have a study buddy</p>
+     <div class="feature-box col-lg-4" style="border-top: 1px solid darkslategrey;">
+      <i class="icon fa-solid fa-lightbulb fa-3x"></i>
+      <h3 class="ft">Communication & Problem Solving</h3>
+      <p class="features-para"> I embrace challenges and am spontaneous in finding optimal solutions to unforseen obstacles. I am confident in expressing my opinions and also very open to feedback and suggestions. </p>
      </div>
      </div>
     </section>
@@ -82,20 +81,30 @@
     <section id="testimonials">
       <div id="testimonial-carousel" class="carousel slide" data-ride="false">
         <div class="carousel-inner">
+          <h1 class="testhead">Experiences</h1>
           <div class="carousel-item active" >
-              <h2>I am so much more excited to study and learn new things with my passionate and productive studdy buddies!! </h2>
-              <img class="testimonial-image" src="images/study-img-300.jpg" alt="study image with buddy by eliott-reyna-unsplashed.com">
-              <em>Nicole, UCLA</em>
+              <h2>Project Lead at TritonNeuroTech UCSD</h2>
+              <h4>Led and conducted weekly lab sessions and meetings for team "Neural Prosthetics" wherein I gained valuable insights on EEG signal detection and processing, P300 waves, and the backend machine learning involved in training the prosthetic limb.</h4>
+              <img class="public_html/final_portfolio/testimonial-image" src="images/study-img-300.jpg" alt="study image with buddy by eliott-reyna-unsplashed.com">
+              <em>2024-25</em>
           </div>
           <div class="carousel-item" >
-            <h2>I have seen great improvement in my productivy levels and my grades have boosted too!!</h2>
+            <h2>Instructional Assistant at UCSD</h2>
+            <h4>I was immensely interested by the class on "neurobiology of cognition" by Dr.Johnson. I noticed my friends from the coding background and the juniors were struggling to understand a few challenging diagrams and topics when I had gotten an A+ and that's when I decided to tutor my peers. I also conducted weekly labs and assisted the professor with grading exams and papers. </h4>
             <img class="testimonial-image" src="images/annie-spratt-unsplash.jpg" alt="study image with buddy by eliott-reyna-unsplashed.com">
-            <em>Rachel, Harvard University</em>
+            <em>2024-25</em>
           </div>
           <div class="carousel-item" >
-            <h2>I have made many friends in my field of study and it has really transformed my studying experience to be a lot more fun.</h2>
+            <h2>Intern at Dhrithi Wellness Clinic</h2>
+            <h4></h4>
+            <img class="testimonial-image" src="images/annie-spratt-unsplash.jpg" alt="study image with buddy by eliott-reyna-unsplashed.com">
+            <em>June 2022</em>
+          </div>
+          <div class="carousel-item" >
+            <h2>Volunteer for NAE-UNICEF</h2>
+            <h4></h4>
             <img class="testimonial-image" src="images/tamarcus-brown-unsplash.jpg" alt="study image with buddy by eliott-reyna-unsplashed.com">
-            <em>Mike, New York University</em>
+            <em>2022-23</em>
           </div>
         </div>
          <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
@@ -108,14 +117,7 @@
         </a>
       </div>
     </section>
-    <!--Press-->
-    <section id="press">
-      <img class="press-logo" src="images/a-1.png" alt="a1 academy of study image">
-      <img class="press-logo"src="images/study-smarter-logo.png" alt="study smarter image">
-      <img class="press-logo"src="images/game-one.png" alt="game one acadmeic games image">
-      <img class="press-logo"src="images/stellar-grades-academy.png" alt="stellar grades academy image">
 
-    </section>
     <!-- Pricing -->
   <section id="pricing">
     <h2 class="pricing-header">A Plan for Every Student's Budget</h2>
